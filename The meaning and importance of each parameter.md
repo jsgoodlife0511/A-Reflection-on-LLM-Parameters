@@ -6,7 +6,6 @@ If too low: learning speed too low & may get stuck at local minimum
 
 It is best to experiment with various learning rates.
 #### Different sterategy to give diversity to learning rate: lr_scheduler_type
-
 constant_with_warmup: The lr starts at a user-provided value, gradually increases, and then becoms constant at a user-defined point.
 
 linear_decay: The lr decreases in a linear way.
