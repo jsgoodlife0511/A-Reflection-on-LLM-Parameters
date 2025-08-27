@@ -11,3 +11,4 @@ We use **"W = W_0 + BA"**.
 **B and A**: lower-rank decomposed matrices.  
 W_0 is kept fixed during training, and only B and A are trained for faster computation with less memory usage.   
 *Separate adapters can be created and used for different tasks.*  
+*We can utilize 'peft' library for LoRA config.*  
