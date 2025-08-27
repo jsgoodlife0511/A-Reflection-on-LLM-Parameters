@@ -14,3 +14,8 @@ We use **"W = W_0 + BA"**.
 W_0 is kept fixed during training, and only B and A are trained for faster computation with less memory usage.   
 Separate adapters can be created and used for different tasks.  
 *We can utilize 'peft' library for LoRA config.*  
+
+### (3) Important Lora Configs
+**lora_alpha**: Scaling factor multiplied to *BA*.  
+**r**: A rank of the *low-rank matrices(B and A)* - generally 8, 16, or 32.  
+**target_modules**: Specifies which modules in the base model the LoRA adapters will be attached to.  
