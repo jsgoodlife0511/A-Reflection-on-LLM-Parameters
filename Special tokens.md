@@ -10,6 +10,5 @@ Pad tokens are ignored when computing the loss value during training. Attention 
 The model needs to know when each input sequence ends during training.  
 
 ### (4) Tip: Do not set the eos_token as the pad_token. Use a reserved token for pad_token instead
-The model needs to know when each input sequence ends during training using *eos_token*. If 'tokenizer.pad_token = tokenizer.eos_token' is set, the model will not be properly trained on the *eos_token* and may fail to learn when to stop generating text.    
-You can utilize a reserved token to set a pad_token.
+The model needs to know when each input sequence ends during training using *eos_token*. If 'tokenizer.pad_token = tokenizer.eos_token' is set, the model will not be properly trained on the *eos_token* and may fail to learn when to stop generating text. **You can utilize a reserved token to set a pad_token.**
 
