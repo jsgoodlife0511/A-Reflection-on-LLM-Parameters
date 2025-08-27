@@ -16,5 +16,5 @@ cosine_decay: The lr decreases following a cosine curve.
 *When both steps and epoch are provided as an argument, epoch is ignored*  
 
 ### (3) Context Window and Max Sequence Length
-**Context Window** differs from each LLM model. It determines how many tokens the model can process at once.  
+**Context Window** varies between LLM models. It determines how many tokens the model can process in a single pass.  
 **Max Sequence Length**(max_seq_length) determines the maximum length during training; Ideally it should be less than context window. Otherwise data can be lost. Longer max sequence length uses more memory, so batch size usually needs to be smaller to fit GPU limits.  
