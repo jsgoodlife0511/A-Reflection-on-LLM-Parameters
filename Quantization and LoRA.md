@@ -5,7 +5,9 @@ A technique that reduces numerical precision to improve memory efficiency.
 **Quantization-Aware Trainning(QAT)**: Quantization simulation during training.  
 *In transformers, we can utilize BitsAndBytesConfig library.*  
 
-### (2) LoRA: Using Adapters Instead of Training Full Model Weights
+### (2) QLoRA: Utilizing Quantized Low Rank Matrices
+If the base model is quantized, its numerical precision is reduced, so it cannot be further trained effectively.  
+We should quantize and train only the LoRA matrices(adapters) instead of quantizing and training the base model.  
 We use **"W = W_0 + BA"**.  
 **W_0**: represents the pretrained base model’s weights.  
 **B and A**: lower-rank decomposed matrices.  
