@@ -10,4 +10,4 @@ We use **"W = W_0 + BA"**.
 **W_0**: represents the pretrained base model’s weights.  
 **B and A**: lower-rank decomposed matrices.  
 W_0 is kept fixed during training, and only B and A are trained for faster computation with less memory usage.   
-Separate adapters can be created and used for different tasks.  
+*Separate adapters can be created and used for different tasks.*  
