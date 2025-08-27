@@ -18,3 +18,7 @@ cosine_decay: The lr decreases following a cosine curve.
 ### (3) Context Window and Max Sequence Length
 **Context Window** varies between LLM models. It determines how many tokens the model can process in a single pass.  
 **Max Sequence Length**(max_seq_length) determines the maximum length during training; Ideally it should be less than context window. Otherwise data can be lost. *Longer max sequence length uses more memory, so batch size usually needs to be smaller to fit GPU limits.*  
+
+### (4) Tensorboard
+**Tensorboard** supports real-time monitoring during training.  
+Set "report_to="tensorboard".  
