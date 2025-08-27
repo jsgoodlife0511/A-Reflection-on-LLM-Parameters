@@ -18,4 +18,4 @@ Separate adapters can be created and used for different tasks.
 ### (3) Important Lora Configs
 **lora_alpha**: Scaling factor multiplied to *BA*.  
 **r**: A rank of the *low-rank matrices(B and A)* - generally 8, 16, or 32.  
-**target_modules**: Specifies which modules in the base model the LoRA adapters will be attached to.  
+**target_modules**: Specifies which layers in the base model the LoRA adapters will be attached to.  
