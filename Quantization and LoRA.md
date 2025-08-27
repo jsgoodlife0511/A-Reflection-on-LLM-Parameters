@@ -3,3 +3,4 @@ A technique that reduces numerical precision to improve memory efficiency.
 Dynamic Quantization: Quantization during model inference.  
 Static QUantization: Quantization during model saving/loading.  
 Quantization-Aware Trainning(QAT): Quantization simulation during training.  
+#### In transformer, 
