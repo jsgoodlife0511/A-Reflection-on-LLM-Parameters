@@ -9,4 +9,4 @@ Selects from the smallest set of tokens whose cumulative probability is ≥ p.
 ### 4) max_new_tokens  
 limitation on how many new tokens the model will generate.  
 ### 5) stop_words  
-Signals a model to stop generating text.  
+Signals a model to stop generating text. If we want reponse to be a single line, set it as 'enter' character.  
