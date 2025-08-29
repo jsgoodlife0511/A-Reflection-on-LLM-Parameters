@@ -6,4 +6,5 @@ If you have a good quality of dataset, probably fine-tuning base model would be 
 Otherwise, you can of course try fine-tuning an inst model.  
 However, the best approach is to fine-turn both an inst and a base model..!  
 ### When training an inst model  
-Make sure you strictly follow instruction formatting when training it.
+Make sure you strictly follow instruction formatting when training it.  
+Special token (end_of_text for example) could be different from a base model.  
