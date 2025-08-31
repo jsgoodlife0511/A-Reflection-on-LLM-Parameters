@@ -1,6 +1,5 @@
 import re, argparse, os, json
 from datasets import load_dataset
-#import champ_dataset
 
 def load_json(data_path):
     with open(data_path, 'r', encoding='utf-8') as f:
