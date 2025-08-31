@@ -1,5 +1,3 @@
-!pip install -q git+https://github.com/vllm-project/vllm.git
-
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 from vllm import LLM, SamplingParams
