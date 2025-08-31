@@ -14,5 +14,5 @@ Signals a model to stop generating text. If we want reponse to be a single line,
 Likelihood of the model repeating the same words or phrases during text generation.  
 r > 1 : Repeats are penalized more.  
 r < 1 : Repeats are rewarded.  
-### 7) guided_decoding
+### 7) guided_decoding (structured output)
 Controlls the model’s output during generation. (ex, toward specific file formats)
