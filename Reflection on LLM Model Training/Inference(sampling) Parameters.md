@@ -15,4 +15,4 @@ Likelihood of the model repeating the same words or phrases during text generati
 r > 1 : Repeats are penalized more.  
 r < 1 : Repeats are rewarded.  
 ### 7) guided_decoding (structured output)
-Controlls the model’s output during generation. (ex, toward specific file formats)
+Controlls the model’s output during generation. (ex, toward specific file formats or "choose one option")
