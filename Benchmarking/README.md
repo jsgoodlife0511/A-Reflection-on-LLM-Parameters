@@ -18,12 +18,12 @@ Example prompt to the evaluator LLM:
 
 "The following are responses from three different LLMs to the same set of XX questions.  
 Based on these answers, analyze the characteristics of each model. For each question, identify which response you prefer and explain why.  
-Your evaluation should be based on (1) factual accuracy, (2) clarity/conciseness, and (3) natural language fluency."
+Your evaluation should be based on **(1) factual accuracy, (2) clarity/conciseness, and (3) natural language fluency.**"
 
-This approach introduces a layer of structured qualitative assessment from another language model, which can be especially helpful when human evaluation is too costly or slow.  
+This approach introduces a layer of structured qualitative assessment from another language model, which can be especially helpful **when human evaluation is too costly or slow.**  
 
 ## Evaluation Method 3: Domain-Specific Benchmarks
-If you're working within a specific domain, it's beneficial to prepare a domain-specific benchmark dataset composed of objective, clearly answerable questions—preferably multiple-choice or short-answer format.  
+If you're working within a specific domain, it's beneficial to prepare a domain-specific benchmark dataset composed of objective, clearly answerable questions—**preferably multiple-choice or short-answer format.**  
 This allows for a clear distinction between correct and incorrect responses.
   
 The reliability of this evaluation heavily depends on:  
