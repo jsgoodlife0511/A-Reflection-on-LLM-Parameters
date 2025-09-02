@@ -14,7 +14,7 @@ cosine_decay: The lr decreases following a cosine curve.
 **One step** corresponds to a single batch update — that is, *one forward and backward pass with a batch of data*.  
 For example, if the dataset contains 500 samples and the batch size is 10, then each epoch consists of 50 steps.
 If max_steps is set to 20, the training will process 20 batches (i.e., 200 samples total, possibly with repetition depending on sampling strategy).  
-The total number of steps equals the total number of parameter updates. 
+The total number of steps equals the total number of parameter updates.  
 **Epoch** determines how many times the model gets trained for the entire dataset.  
 *When both steps and epoch are provided as an argument, epoch is ignored*  
 
