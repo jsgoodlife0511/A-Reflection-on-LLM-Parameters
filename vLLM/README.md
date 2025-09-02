@@ -7,10 +7,11 @@ During inference, **caching Key and Value matrices removes redundant computation
 ## Paged attention
 GPU memory is managed in small blocks (pages), **loading only necessary KV cache onto the GPU and storing the rest on the CPU.**  
 Pros: Lower GPU memory use and support for multiple concurrent requests.  
-Cons: Latency from GPU-CPU page swapping. If needed KV cache isn’t on the GPU, fetching from the CPU over the PCIe bus causes delays. Frequent page misses increase this latency.
-In vLLM, **'gpu_memory_utilization' parameter mainly controls the amount of KV cache stored on the GPU.** Adjusting it balances GPU memory use and CPU offloading, optimizing memory management and performance.  
+Cons: Latency from GPU-CPU page swapping. If needed KV cache isn’t on the GPU, fetching from the CPU over the PCIe bus causes delays. Frequent page misses increase this latency.  
+**In vLLM, 'gpu_memory_utilization' parameter mainly controls the amount of KV cache stored on the GPU.** Adjusting it balances GPU memory use and CPU offloading, optimizing memory management and performance.  
 
 ## 
+
 
 
 
