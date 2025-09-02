@@ -1,5 +1,5 @@
-We utilized Alpaca dataset for initial QLoRA fine-tuning and Orca DPO Pair dataset for DPO-QLoRA fine-tuning.  
-When using two different datsets, it is very **critical to maintain consistent prompt formatting.**  
+We utilized the Alpaca dataset for initial instruction fine-tuning with QLoRA, and the Orca DPO pairs dataset for DPO-QLoRA fine-tuning.
+Please note that, when using two different datsets, it is very **critical to maintain consistent prompt formatting.**  
 
 ## Part 1: Fine-tune a base model(4-bits quantized Llama3) with Alphaca data 
 We load a Llama3 model, quantize it to 4 bits, and attach a QLoRA adapter.  
