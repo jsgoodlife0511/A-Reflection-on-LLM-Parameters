@@ -5,7 +5,7 @@ these have limitations—especially when it comes to evaluating results from **d
 Quantitative evaluations alone are often insufficient. In most real-world applications, a hybrid approach combining **both quantitative and qualitative evaluation** methods is needed.  
 This is particularly true when fine-tuning a model for **a specific use case or domain relevant to your organization.** Assessing how well the model performs in those scenarios remains an open question.  
 
-## Evaluation Method 1: Golden Dataset & Checkpoint Tracking  
+## Evaluation Method 1: Qualitative Evaluation through Checkpoint Tracking using Golden Dataset
 During instruction fine-tuning, one effective approach is to prepare **a golden dataset** of question–ideal answer pairs and observe how the model's responses **evolve across training checkpoints.**
 
 This may seem simple, but it can be a surprisingly powerful way to qualitatively assess model performance. By focusing on a small set of critical or representative questions and tracking changes in the responses at each checkpoint, you can get a tangible sense of how fine-tuning is shaping the model's behavior.  
