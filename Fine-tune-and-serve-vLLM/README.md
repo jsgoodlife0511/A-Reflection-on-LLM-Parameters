@@ -6,5 +6,9 @@ We load a Llama3 model, quantize it to 4 bits, and attach a QLoRA adapter.
 Then, we use the Alpaca dataset to train the attached adapter(instruction-turning). Later, we will load the merged model (quantized Llama3 + QLoRA adapter).  
 <img width="548" height="143" alt="image" src="https://github.com/user-attachments/assets/3d04ebc0-45e9-4bed-a626-a4da982937ee" />
 ## Part 2: Load the merged model ((quantized Llama3 + QLoRA adapter))  
+We load a Llama 3 model, attach the merged model from Part 1 as an adapter, and create a new adapter-free base model using merge_and_unload.  
+Then, we load the adapter-free base model, quantize it to 4-bit, and attach an r=16 QLoRA adapter for DPO tuning.  
+The final model becomes both instruction- and DPO-tuned.  
+<img width="1080" height="364" alt="image" src="https://github.com/user-attachments/assets/23e8d911-f0ca-4a83-903e-0f7dda33c51a" />
 
 
