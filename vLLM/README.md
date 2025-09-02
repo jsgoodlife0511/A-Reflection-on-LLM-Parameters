@@ -1,2 +1,4 @@
 ## Why vLLM?
-When using LLMs in real products, inference efficiency is key to speed and cost. Larger models(more parameters) are slower and more expensive, but various optimization techniques are continuously being developed to address these challenges
+When using LLMs in real products, inference efficiency is key to speed and cost. Larger models(more parameters) are slower and more expensive, but various optimization techniques are continuously being developed to address these challenges.  
+vLLM efficiently manages GPU memory, supports multiple models via Hugging Face, and is optimized for handling many concurrent requests.
+
