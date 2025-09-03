@@ -11,4 +11,5 @@ Then, we load the adapter-free base model, quantize it to 4-bit, and attach an r
 The final model becomes both instruction- and DPO-tuned.  
 <img width="759" height="274" alt="image" src="https://github.com/user-attachments/assets/5853f498-6c01-437b-8dd3-b865ab937c3b" />
 
+## Part 3: Served the trained models through vLLM  
 
